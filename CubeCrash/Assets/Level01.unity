@@ -145,7 +145,7 @@ BoxCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 256599380}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: 122da3e49603b17469d02554e69042cf, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -552,7 +552,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
+  m_RayTracingMode: 0
   m_RayTraceProcedural: 0
   m_RayTracingAccelStructBuildFlagsOverride: 0
   m_RayTracingAccelStructBuildFlags: 1
@@ -648,6 +648,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cfebeebb836fc3f4ebcd1e0aa74ee492, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
+  rb: {fileID: 669877689}
+  forwardForce: 200
 --- !u!1 &832575517
 GameObject:
   m_ObjectHideFlags: 0
